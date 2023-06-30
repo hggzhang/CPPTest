@@ -1,4 +1,5 @@
 .vs/*
 !.vs/*.suo
 **/Debug/
+**/X64/
 .git/
