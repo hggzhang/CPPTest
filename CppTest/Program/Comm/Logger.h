@@ -1,8 +1,5 @@
 #pragma once
 #include <iostream>
-#include <utility>
-#include <string>
-#include <typeinfo>
 
 #define LOG(any) cout << any << endl
 
@@ -26,8 +23,6 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-
-
 //					Tools
 class TestFuncLogger
 {
@@ -46,13 +41,4 @@ public:
 private:
 	std::string name;
 };
-
-
-//					CPP 11
-
-void auto_decltype_test();
-
-void lambda_test();
-
-void rvalueref_stdmove_test();
 

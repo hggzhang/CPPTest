@@ -1,13 +1,9 @@
-#include "ModernCPPTest/TestHeader.h"
+#include "Header.h"
 #include <stdexcept>
 
 void test()
 {
-	// auto_decltype_test();
-
-	// lambda_test();
-
-	rvalueref_stdmove_test();
+	modern_cpp_test_main();
 }
 
 int main()

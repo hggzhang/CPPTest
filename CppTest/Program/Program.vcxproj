@@ -119,6 +119,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>E:\MyPjt\CppTest\CppTest\Program;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -142,13 +143,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Comm\Logger.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ModernCPPTest\11_1_auto_decltype.cpp" />
     <ClCompile Include="ModernCPPTest\11_2_lambda.cpp" />
     <ClCompile Include="ModernCPPTest\11_3_rvalueref_stdmove.cpp" />
+    <ClCompile Include="ModernCPPTest\ModernCppTestMain.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ModernCPPTest\TestHeader.h" />
+    <ClInclude Include="Comm\Logger.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="ModernCPPTest\ModernCppTestHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
