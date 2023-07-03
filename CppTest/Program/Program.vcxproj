@@ -148,6 +148,7 @@
     <ClCompile Include="ModernCPPTest\11_1_auto_decltype.cpp" />
     <ClCompile Include="ModernCPPTest\11_2_lambda.cpp" />
     <ClCompile Include="ModernCPPTest\11_3_rvalueref_stdmove.cpp" />
+    <ClCompile Include="ModernCPPTest\11_4_template.cpp" />
     <ClCompile Include="ModernCPPTest\ModernCppTestMain.cpp" />
   </ItemGroup>
   <ItemGroup>

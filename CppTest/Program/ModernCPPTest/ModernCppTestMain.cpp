@@ -6,5 +6,7 @@ void modern_cpp_test_main()
 
 	// lambda_test();
 
-	rvalueref_stdmove_test();
+	// rvalueref_stdmove_test();
+
+	template_test();
 }

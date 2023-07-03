@@ -99,4 +99,12 @@ void lambda_test()
 		int v = f(5);
 		LOG_VAR(v);
 	}
+
+
+	LOG_TAG(" ¡¾C++ 20¡¿ Ä£°å lambda");
+	{
+		auto f = []<class T> (T t) { LOG_VAR(t); };
+		f(1);
+		f(1.25f);
+	}
 }

@@ -39,6 +39,9 @@
     <ClCompile Include="Comm\Logger.cpp">
       <Filter>Comm</Filter>
     </ClCompile>
+    <ClCompile Include="ModernCPPTest\11_4_template.cpp">
+      <Filter>ModernCPPTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ModernCPPTest\ModernCppTestHeader.h">
