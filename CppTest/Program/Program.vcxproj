@@ -145,10 +145,14 @@
   <ItemGroup>
     <ClCompile Include="Comm\Logger.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="ModernCPPTest\11_1_auto_decltype.cpp" />
-    <ClCompile Include="ModernCPPTest\11_2_lambda.cpp" />
-    <ClCompile Include="ModernCPPTest\11_3_rvalueref_stdmove.cpp" />
-    <ClCompile Include="ModernCPPTest\11_4_template.cpp" />
+    <ClCompile Include="ModernCPPTest\modernc_range_for.cpp" />
+    <ClCompile Include="ModernCPPTest\modernc_thread.cpp" />
+    <ClCompile Include="ModernCPPTest\modrenc_auto_decltype.cpp" />
+    <ClCompile Include="ModernCPPTest\modrenc_constexpr.cpp" />
+    <ClCompile Include="ModernCPPTest\modrenc_lambda.cpp" />
+    <ClCompile Include="ModernCPPTest\modrenc_rvalueref_stdmove.cpp" />
+    <ClCompile Include="ModernCPPTest\modrenc_template.cpp" />
+    <ClCompile Include="ModernCPPTest\modrenc_smart_pointer.cpp" />
     <ClCompile Include="ModernCPPTest\ModernCppTestMain.cpp" />
   </ItemGroup>
   <ItemGroup>

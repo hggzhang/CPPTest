@@ -8,5 +8,13 @@ void modern_cpp_test_main()
 
 	// rvalueref_stdmove_test();
 
-	template_test();
+	// template_test();
+
+	// smart_pointer_test();
+
+	// constexpr_test();
+
+	// range_for_test();
+
+	thread_test();
 }

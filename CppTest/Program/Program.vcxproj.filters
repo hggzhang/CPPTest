@@ -24,13 +24,13 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ModernCPPTest\11_1_auto_decltype.cpp">
+    <ClCompile Include="ModernCPPTest\modrenc_auto_decltype.cpp">
       <Filter>ModernCPPTest</Filter>
     </ClCompile>
-    <ClCompile Include="ModernCPPTest\11_2_lambda.cpp">
+    <ClCompile Include="ModernCPPTest\modrenc_lambda.cpp">
       <Filter>ModernCPPTest</Filter>
     </ClCompile>
-    <ClCompile Include="ModernCPPTest\11_3_rvalueref_stdmove.cpp">
+    <ClCompile Include="ModernCPPTest\modrenc_rvalueref_stdmove.cpp">
       <Filter>ModernCPPTest</Filter>
     </ClCompile>
     <ClCompile Include="ModernCPPTest\ModernCppTestMain.cpp">
@@ -39,7 +39,19 @@
     <ClCompile Include="Comm\Logger.cpp">
       <Filter>Comm</Filter>
     </ClCompile>
-    <ClCompile Include="ModernCPPTest\11_4_template.cpp">
+    <ClCompile Include="ModernCPPTest\modrenc_template.cpp">
+      <Filter>ModernCPPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ModernCPPTest\modrenc_smart_pointer.cpp">
+      <Filter>ModernCPPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ModernCPPTest\modrenc_constexpr.cpp">
+      <Filter>ModernCPPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ModernCPPTest\modernc_range_for.cpp">
+      <Filter>ModernCPPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ModernCPPTest\modernc_thread.cpp">
       <Filter>ModernCPPTest</Filter>
     </ClCompile>
   </ItemGroup>
